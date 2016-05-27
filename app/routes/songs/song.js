@@ -7,4 +7,5 @@ export default Ember.Route.extend({
     return store.getSongsById(id);
   },
   store: Ember.inject.service()
+
 });

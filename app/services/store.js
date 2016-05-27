@@ -58,8 +58,8 @@ export default Ember.Service.extend({
      lyrics: "(RPPP = \"rum pum pum pum\") <br>  <br> Come they told me <br> Pa RPPP <br> A new born King to see <br>  <br> Our finest gifts we bring <br> Pa RPPP <br> To lay before the king <br> Pa RPPP <br> RPPP <br> RPPP  <br>  <br> So to honor Him <br> Pa RPPP <br> When we come <br>  <br> Little baby <br> Pa RPPP <br> I am a poor boy too <br> Pa RPPP <br> I have no gift to bring <br> Pa RPPP <br> That's fit to give our King <br> Pa RPPP <br> RPPP <br> RPPP <br>  <br> Shall I play for you <br> Pa RPPP <br> On my drum <br>  <br> Mary nodded <br> Pa RPPP <br> The ox and lamb kept time <br> Pa RPPP <br> I played my drum for Him <br> Pa RPPP <br> I played my best for Him <br> Pa RPPP <br> RPPP <br> RPPP <br>  <br> Then He smiled at me <br> Pa RPPP <br> Me and my drum"
 
    }, {
-     id: "oCrhsistmasTree",
-     title: "O Crhsistmas Tree",
+     id: "oChristmasTree",
+     title: "O Christmas Tree",
      lyrics: "O Christmas tree O Christmas tree <br> How are thy leaves so verdant <br> O Christmas tree O Christmas tree <br> How are thy leaves so verdant <br>  <br> Not only in the summertime <br> But even in winter is thy prime <br> O Christmas tree O Christmas tree <br> How are thy leaves so verdant <br>  <br> O Christmas tree O Christmas tree <br> Much pleasure doth thou bring me <br> O Christmas tree O Christmas tree <br> Much pleasure doth thou bring me <br>  <br> For every year the Christmas tree <br> Brings to us all both joy and glee <br> O Christmas tree O Christmas tree <br> Much pleasure doth thou bring me <br>  <br> O Christmas tree O Christmas tree <br> Thy candles shine out brightly <br> O Christmas tree O Christmas tree <br> Thy candles shine out brightly <br>  <br> Each bough doth hold its tiny light <br> That makes each toy to sparkle bright <br> O Christmas tree O Christmas tree <br> Thy candles shine out brightly"
    }, {
      id: "oComeAllYeFaithful",
