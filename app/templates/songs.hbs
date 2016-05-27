@@ -1,0 +1,8 @@
+<h4 id="title">Caroling Songs</h4><br>
+ {{outlet}}
+
+{{#each model as |song|}}
+  {{#link-to "songs.song" song}}
+  <h5>{{song.title}}</h5>
+  {{/link-to}}
+{{/each}}
