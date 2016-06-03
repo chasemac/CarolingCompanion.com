@@ -17,11 +17,11 @@
       </tr>
     </thead>
     <tbody>
-    {{#each model as |invitation|}}
+    {{#each model as |song|}}
         <tr>
 
-            <td>{{invitation.title}}</td>
-            <td>{{invitation.lyrics}}</td>
+            <td>{{song.title}}</td>
+            <td>{{{song.lyrics}}}</td>
         </tr>
     {{/each}}
 
