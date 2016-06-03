@@ -1,15 +1,8 @@
 <div class="container">
   {{partial 'navbar'}}
-
-</div>
-
-<div class="container theme-showcase" role="main">
-{{outlet}}
-<br />
-<hr />
-<footer>
-    <a target="_blank" href="http://chase.bio/">&copy; 2016 Chase McElroy</a> |
-    {{#link-to 'about' align="right"}}About{{/link-to}}
-
-</footer>
+  {{outlet}}
+  <hr />
+  <footer>
+      <a target="_blank" href="http://chase.bio/">&copy; 2016 Chase McElroy</a>
+  </footer>
 </div>
