@@ -1,7 +1,29 @@
  {{outlet}}
 
-{{#each model as |song|}}
+<!-- {{#each model as |song|}}
   {{#link-to "songs.song" song}}
   <h5>{{song.title}}</h5>
   {{/link-to}}
-{{/each}}
+{{/each}} -->
+
+<h1>Songs</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+
+          <th>Title</th>
+          <th>Lyrics</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{#each model as |invitation|}}
+        <tr>
+
+            <td>{{invitation.title}}</td>
+            <td>{{invitation.lyrics}}</td>
+        </tr>
+    {{/each}}
+
+    </tbody>
+</table>
