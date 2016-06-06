@@ -1,5 +1,20 @@
 <div class="jumbotron">
-  <h1>Welcome to Caroling Compnaion</h1>
-  <p>The best place to find songs to spread Christmas cheer!</p>
-  {{#link-to 'songs' class="btn btn-primary btn-lg"}}Start Singing{{/link-to}}
+  <div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4">
+      <img src="favicon.png" class="img-responsive" alt="favicon">
+    </div>
+    <div class="col-md-8">
+      <h1>Welcome to Caroling Compnaion</h1>
+      <p>The best place to find songs to spread Christmas cheer!</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-1 col-sm-4 col-md-4"></div>
+    <div class="col-xs-10 col-sm-4 col-md-4">
+      {{#link-to 'songs' class="btn btn-primary btn-lg btn-block text-center" }}Start Singing{{/link-to}}
+    </div>
+    <div class="col-xs-1 col-sm-4 col-md-4"></div>
+
+  </div>
+
 </div>
